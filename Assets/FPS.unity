@@ -1257,6 +1257,8 @@ MonoBehaviour:
   maxHealth: 10
   curHealth: 10
   damage: 1
+  target: {x: 0, y: 0, z: 0}
+  player: {fileID: 0}
 --- !u!1 &165063764
 GameObject:
   m_ObjectHideFlags: 0
@@ -10331,6 +10333,10 @@ Prefab:
     - target: {fileID: 10847730, guid: 062893e7007e39441aea009115b6cefa, type: 2}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 168262, guid: 062893e7007e39441aea009115b6cefa, type: 2}
+      propertyPath: m_Name
+      value: RingOfFire
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 062893e7007e39441aea009115b6cefa, type: 2}
