@@ -5,7 +5,7 @@ using UnityEngine;
 public class Teleport : MonoBehaviour {
 
 	public Transform Destination;       // Gameobject where they will be teleported to
-	public string TagList = "|PlayerCharacter|"; // List of all tags that can teleport
+	public string TagList = "|Player|"; // List of all tags that can teleport
 
 	// Use this for initialization
 	void Start () {

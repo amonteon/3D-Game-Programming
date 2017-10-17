@@ -9322,6 +9322,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1275316182}
   - component: {fileID: 1275316181}
+  - component: {fileID: 1275316184}
+  - component: {fileID: 1275316183}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -9359,6 +9361,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275316183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275316180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1649e9ed851514a34af0c78a8e6fbcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1277315969424840, guid: e2cca50f72d0b4d99b354ed7fc333221,
+    type: 2}
+  spawnList: []
+--- !u!114 &1275316184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275316180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1649e9ed851514a34af0c78a8e6fbcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1672846615780884, guid: 545c24deb703e4fe9afa13c93210b76d,
+    type: 2}
+  spawnList: []
 --- !u!1 &1277720709
 GameObject:
   m_ObjectHideFlags: 0
@@ -14764,7 +14794,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 106cbf05ff1a64e5a8c3cfa3a07251ac, type: 3}
@@ -14783,6 +14813,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1909748607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1909748603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6be5649fbf64569872c85f474ad033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Destination: {fileID: 629941794}
+  TagList: '|Player|'
 --- !u!1 &1919079005
 GameObject:
   m_ObjectHideFlags: 0
