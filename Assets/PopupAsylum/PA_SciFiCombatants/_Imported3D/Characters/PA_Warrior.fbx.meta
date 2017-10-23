@@ -80,13 +80,15 @@ ModelImporter:
     7400016: PA_WarriorRecover_Clip
     7400018: PA_WarriorDeath_Clip
     9500000: //RootNode
+    11100000: //RootNode
     13700000: PA_Warrior
+    13700002: PA_WarriorRoot
   materials:
     importMaterials: 1
     materialName: 1
     materialSearch: 2
   animations:
-    legacyGenerateAnimations: 4
+    legacyGenerateAnimations: 3
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
@@ -427,10 +429,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 1
   userData: 
