@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Chasing Enemy
   - bullet
+  - laser
   layers:
   - Default
   - TransparentFX
