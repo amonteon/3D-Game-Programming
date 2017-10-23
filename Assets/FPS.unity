@@ -15655,7 +15655,7 @@ GameObject:
   - component: {fileID: 1101384980}
   - component: {fileID: 1101384979}
   m_Layer: 0
-  m_Name: Waypoint Route
+  m_Name: Enemy1 Route
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15684,16 +15684,14 @@ MonoBehaviour:
     _serializedDocument: <component version="1.8" type="RAIN.Navigation.Waypoints.WaypointRig"
       reference="0" includecustomdata="False"><_visualMode>AlwaysOn</_visualMode><_waypointSet
       reference="1"><_mountPoint sceneobject="426cde55-678a-4b6f-a8ed-a2de6d87f2a0"
-      component="0"></_mountPoint><_setName>Waypoint Route</_setName><_setType>Route</_setType><_networkColor>0,0,0.6,1</_networkColor><_outlineColorOffset>-0.5</_outlineColorOffset><_selectionColorOffset>0.4</_selectionColorOffset><_showOctTree>False</_showOctTree><_waypoints><element0
+      component="0"></_mountPoint><_setName>Enemy1 Route</_setName><_setType>Route</_setType><_networkColor>0,0,0.6,1</_networkColor><_outlineColorOffset>-0.5</_outlineColorOffset><_selectionColorOffset>0.4</_selectionColorOffset><_showOctTree>False</_showOctTree><_waypoints><element0
       reference="2"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.52162,0.46,-12.04128</_position><_range>0.5</_range></element0><element1
       reference="3"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>0.420166,0.46,-11.90195</_position><_range>0.5</_range></element1><element2
       reference="4"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>11.13742,0.46,-33.52534</_position><_range>0.5</_range></element2><element3
       reference="5"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>22.13017,0.46,-13.91557</_position><_range>0.5</_range></element3><element4
       reference="6"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>30.69109,0.46,17.95258</_position><_range>0.5</_range></element4><element5
       reference="7"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>9.826904,0.46,9.088623</_position><_range>0.5</_range></element5><element6
-      reference="8"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-21.05339,0.46,20.3857</_position><_range>0.5</_range></element6><element7
-      reference="9"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.08344,7.427034,2.017517</_position><_range>0.5</_range></element7><element8
-      reference="10"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-8.463898,7.427031,-18.61882</_position><_range>0.5</_range></element8></_waypoints><_connections></_connections></_waypointSet></component>
+      reference="8"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-21.05339,0.46,20.3857</_position><_range>0.5</_range></element6></_waypoints><_connections></_connections></_waypointSet></component>
     _serializedMetaDocument: <meta></meta>
     _serializedObjects: []
     _serializedCustomData: []
@@ -29007,7 +29005,7 @@ MonoBehaviour:
       reference="12"><_showVisual>True</_showVisual><_sensorName>enemy1</_sensorName><_isActive>True</_isActive><_sensorColor>0.6,0,0,1</_sensorColor><_mountPoint
       sceneobject="bb27cbcb-85f0-4da2-a43e-eaa55139803b" component="0"></_mountPoint><_positionOffset>0,0,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>7</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>90</_horizontalAngle><_verticalAngle>90</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
     _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
-      type="System.Int32">3</value></element0></meta>
+      type="System.Int32">0</value></element0></meta>
     _serializedObjects:
     - {fileID: 4900000, guid: c8c01fd002e7c4da094813930c5962fc, type: 3}
     _serializedCustomData: []
