@@ -86,6 +86,7 @@
      <None Include="Assets\Monster\shaders\caveShader.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\AI\BehaviorTrees\Enemy2.txt" />
      <None Include="Assets\torch\readme.txt" />
      <None Include="Assets\Monster\shaders\monsterShader.shader" />
      <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />

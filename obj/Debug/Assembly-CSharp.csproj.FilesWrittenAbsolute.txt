@@ -50,3 +50,5 @@
 /Users/alejandramonteon/code/Unity/3D-Game-Programming/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/alejandramonteon/code/Unity/3D-Game-Programming/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/alejandramonteon/code/Unity/3D-Game-Programming/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/alejandramonteon/code/Unity/3D-Game-Programming/Temp/bin/Debug/RAINMetaform.dll
+/Users/alejandramonteon/code/Unity/3D-Game-Programming/Temp/bin/Debug/RAIN.dll
