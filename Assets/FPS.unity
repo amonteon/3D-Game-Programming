@@ -11298,7 +11298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &725102970
 Transform:
   m_ObjectHideFlags: 0
@@ -15685,13 +15685,24 @@ MonoBehaviour:
       reference="0" includecustomdata="False"><_visualMode>AlwaysOn</_visualMode><_waypointSet
       reference="1"><_mountPoint sceneobject="426cde55-678a-4b6f-a8ed-a2de6d87f2a0"
       component="0"></_mountPoint><_setName>Enemy1 Route</_setName><_setType>Route</_setType><_networkColor>0,0,0.6,1</_networkColor><_outlineColorOffset>-0.5</_outlineColorOffset><_selectionColorOffset>0.4</_selectionColorOffset><_showOctTree>False</_showOctTree><_waypoints><element0
-      reference="2"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.52162,0.46,-12.04128</_position><_range>0.5</_range></element0><element1
-      reference="3"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>0.420166,0.46,-11.90195</_position><_range>0.5</_range></element1><element2
-      reference="4"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>11.13742,0.46,-33.52534</_position><_range>0.5</_range></element2><element3
-      reference="5"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>22.13017,0.46,-13.91557</_position><_range>0.5</_range></element3><element4
-      reference="6"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>30.69109,0.46,17.95258</_position><_range>0.5</_range></element4><element5
-      reference="7"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>9.826904,0.46,9.088623</_position><_range>0.5</_range></element5><element6
-      reference="8"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-21.05339,0.46,20.3857</_position><_range>0.5</_range></element6></_waypoints><_connections></_connections></_waypointSet></component>
+      reference="2"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.96223,0.46,-1.58226</_position><_range>0.5</_range></element0><element1
+      reference="3"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.76967,0.46,-12.92932</_position><_range>0.5</_range></element1><element2
+      reference="4"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-10.10773,0.46,-13.3028</_position><_range>0.5</_range></element2><element3
+      reference="5"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-9.223495,0.46,-30.66884</_position><_range>0.5</_range></element3><element4
+      reference="6"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-18.03014,0.46,-32.19229</_position><_range>0.5</_range></element4><element5
+      reference="7"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.22697,0.46,-20.15292</_position><_range>0.5</_range></element5><element6
+      reference="8"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-20.31923,0.46,-33.76593</_position><_range>0.5</_range></element6><element7
+      reference="9"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-0.421051,0.46,-33.11969</_position><_range>0.5</_range></element7><element8
+      reference="10"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>2.021881,0.46,-12.47385</_position><_range>0.5</_range></element8><element9
+      reference="11"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>10.55244,0.46,-12.40663</_position><_range>0.5</_range></element9><element10
+      reference="12"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>10.18741,0.46,-33.95682</_position><_range>0.5</_range></element10><element11
+      reference="13"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>33.54314,0.46,-30.89766</_position><_range>0.5</_range></element11><element12
+      reference="14"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>18.03276,0.46,-16.97066</_position><_range>0.5</_range></element12><element13
+      reference="15"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>32.00993,0.46,-9.186371</_position><_range>0.5</_range></element13><element14
+      reference="16"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>24.92039,0.46,-2.872314</_position><_range>0.5</_range></element14><element15
+      reference="17"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>12.79674,0.46,9.522964</_position><_range>0.5</_range></element15><element16
+      reference="18"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>9.826904,0.46,17.51878</_position><_range>0.5</_range></element16><element17
+      reference="19"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-21.05339,0.46,20.3857</_position><_range>0.5</_range></element17></_waypoints><_connections></_connections></_waypointSet></component>
     _serializedMetaDocument: <meta></meta>
     _serializedObjects: []
     _serializedCustomData: []
@@ -16989,7 +17000,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 180.75
+      value: 172.75
       objectReference: {fileID: 0}
     - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -20706,7 +20717,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 225.1
+      value: 246.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -21190,7 +21201,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 228.08
+      value: 227.86
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21198,7 +21209,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 184.05
+      value: 183.11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -21236,6 +21247,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ead1b419f6e4e4fa187d1c90214a9def, type: 2}
+    - target: {fileID: 11100000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
+      propertyPath: m_WrapMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11100000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
   m_IsPrefabParent: 0
@@ -28995,19 +29014,20 @@ MonoBehaviour:
       type="RAIN.Memory.BasicMemory" reference="2"><_memoryItems></_memoryItems></_workingMemory><_mind
       type="RAIN.Minds.BasicMind" reference="3"><_behaviorTree object="0"></_behaviorTree><_behaviorTreeBindings></_behaviorTreeBindings></_mind><_motor
       type="RAIN.Motion.BasicMotor" reference="4"><_speed>1</_speed><_rotationSpeed>360</_rotationSpeed><_closeEnoughDistance>0.1</_closeEnoughDistance><_closeEnoughAngle>0.1</_closeEnoughAngle><_faceBeforeMoveAngle>360</_faceBeforeMoveAngle><_maxHeightOffset>1</_maxHeightOffset><_allow3DMovement>False</_allow3DMovement><_allow3DRotation>False</_allow3DRotation><_allowOffGraphMovement>True</_allowOffGraphMovement><_useRootMotion>False</_useRootMotion><_overrideRootRotation>True</_overrideRootRotation><_mecanimParameters></_mecanimParameters></_motor><_animator
-      type="RAIN.Animation.BasicAnimator" reference="5"><_showVisual>True</_showVisual><_leftEye
-      reference="6"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_leftEye><_rightEye
-      reference="7"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_rightEye><_head
-      reference="8"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_head><_neck
-      reference="9"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_neck><_lookTime>1</_lookTime><_minimumTargetChange>0.1</_minimumTargetChange><_resetEachFrame>False</_resetEachFrame></_animator><_navigator
-      type="RAIN.Navigation.BasicNavigator" reference="10"><_drawPaths>False</_drawPaths><_pathColor>0,1,0,1</_pathColor><_outlineColorOffset>-0.5</_outlineColorOffset><_maxPathfindingSteps>100</_maxPathfindingSteps><_maxPathLength>0</_maxPathLength><_padding>0</_padding><_graphTags></_graphTags></_navigator><_senses
-      type="RAIN.Perception.BasicSenses" reference="11"><_sensors><element0 type="RAIN.Perception.Sensors.VisualSensor"
-      reference="12"><_showVisual>True</_showVisual><_sensorName>enemy1</_sensorName><_isActive>True</_isActive><_sensorColor>0.6,0,0,1</_sensorColor><_mountPoint
+      type="RAIN.Animation.LegacyAnimator" reference="5"><_animationStates><element0
+      reference="10"><stateName>Attack</stateName><animationClip object="2"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Default</wrapMode><mixingTransforms></mixingTransforms></element0><element1
+      reference="6"><stateName>Walk</stateName><animationClip object="3"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Default</wrapMode><mixingTransforms></mixingTransforms></element1></_animationStates></_animator><_navigator
+      type="RAIN.Navigation.BasicNavigator" reference="7"><_drawPaths>False</_drawPaths><_pathColor>0,1,0,1</_pathColor><_outlineColorOffset>-0.5</_outlineColorOffset><_maxPathfindingSteps>100</_maxPathfindingSteps><_maxPathLength>0</_maxPathLength><_padding>0</_padding><_graphTags></_graphTags></_navigator><_senses
+      type="RAIN.Perception.BasicSenses" reference="8"><_sensors><element0 type="RAIN.Perception.Sensors.VisualSensor"
+      reference="9"><_showVisual>True</_showVisual><_sensorName>enemy1</_sensorName><_isActive>True</_isActive><_sensorColor>0.6,0,0,1</_sensorColor><_mountPoint
       sceneobject="bb27cbcb-85f0-4da2-a43e-eaa55139803b" component="0"></_mountPoint><_positionOffset>0,0,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>7</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>90</_horizontalAngle><_verticalAngle>90</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
     _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
-      type="System.Int32">0</value></element0></meta>
+      type="System.Int32">3</value></element0></meta>
     _serializedObjects:
     - {fileID: 4900000, guid: c8c01fd002e7c4da094813930c5962fc, type: 3}
+    - {fileID: 7400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
+    - {fileID: 7400012, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
+    - {fileID: 7400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
     _serializedCustomData: []
 --- !u!4 &1975619765 stripped
 Transform:
