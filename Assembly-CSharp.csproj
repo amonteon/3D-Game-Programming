@@ -157,11 +157,17 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="RAINMetaform">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
+=======
+>>>>>>> c892c1b9b5b02bff71250ea718656e2e0b3acd65
  <Reference Include="RAIN">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>/Users/bengalletta/homework2/3D-Game-Programming/3D-Game-Programming/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

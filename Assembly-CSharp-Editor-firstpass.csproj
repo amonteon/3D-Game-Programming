@@ -167,17 +167,31 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="RAINMetaformEditor">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
+=======
+ <Reference Include="UnityEditor.Facebook.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>/Users/bengalletta/homework2/3D-Game-Programming/3D-Game-Programming/Assets/RAIN/RAIN.dll</HintPath>
+>>>>>>> c892c1b9b5b02bff71250ea718656e2e0b3acd65
  </Reference>
  <Reference Include="RAINMetaform">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
+<<<<<<< HEAD
  <Reference Include="RAIN">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/RAIN.dll</HintPath>
  </Reference>
+=======
+>>>>>>> c892c1b9b5b02bff71250ea718656e2e0b3acd65
  <Reference Include="RAINEditor">
  <HintPath>/Users/alejandramonteon/code/Unity/3D-Game-Programming/Assets/RAIN/Editor/RAINEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaformEditor">
+ <HintPath>/Users/bengalletta/homework2/3D-Game-Programming/3D-Game-Programming/Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

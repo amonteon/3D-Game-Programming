@@ -106,8 +106,8 @@
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
--r:'Assets/RAIN/RAINMetaform.dll'
 -r:'Assets/RAIN/RAIN.dll'
+-r:'Assets/RAIN/RAINMetaform.dll'
 -i:UnityEditor
 'Assets/Monster/scripts/attacksounds.js'
 'Assets/Monster/scripts/breakable.js'
