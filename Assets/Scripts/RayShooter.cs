@@ -7,8 +7,10 @@ public class RayShooter : MonoBehaviour {
 	public GameObject pistol;
 	public GameObject rifle;
 	[SerializeField] private GameObject bulletPrefab;
+	[SerializeField] private GameObject laserPrefab;
 	public float obstacleRange = 5.0f;
 	private GameObject _bullet;
+	private GameObject _laser;
 
 	void Start() {
 		_camera = GetComponent<Camera>();
@@ -35,9 +37,27 @@ public class RayShooter : MonoBehaviour {
 				if (target != null) {
 					target.ReactToHit();
 				} else {
-					StartCoroutine(SphereIndicator(hit.point));
+					StartCoroutine(LaserIndicator(hit.point));
 				}
 			}
+
+//			GameObject weapon = GameObject.Find ("gun1");
+//			if (weapon == true){
+//				Debug.Log("Bullet Change");
+//				if (Physics.Raycast(ray, out hit)) {
+//
+//					GameObject hitsObject = hit.transform.gameObject;
+//					ReactiveTarget target = hitsObject.GetComponent<ReactiveTarget>();
+//					if (target != null) {
+//						target.ReactToHit();
+//					}
+//					else{
+//						StartCoroutine (LaserIndicator (hit.point));
+//					}
+//				}
+//
+//			}
+
 			GameObject weapon = GameObject.Find ("gun2");
 			if (weapon == true){
 				Debug.Log("Bullet Change");
@@ -59,31 +79,31 @@ public class RayShooter : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.R))
 			Application.LoadLevel(0);
 	}
-	private IEnumerator SphereIndicator(Vector3 pos) {
-
-
-		pistol = GameObject.Find ("gun1");
-		rifle = GameObject.Find ("gun2");
-
-		if (pistol.activeInHierarchy == true) {
-			GameObject sphere = GameObject.CreatePrimitive (PrimitiveType.Sphere);
-			sphere.transform.position = pos;
-
-			yield return new WaitForSeconds (1);
-
-			Destroy (sphere);
-		} 
-		else if (rifle.activeInHierarchy == true) {
-			GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-			cube.transform.position = pos;
-
-			yield return new WaitForSeconds(1);
-
-			Destroy(cube);
-		}
-
-
-	}
+//	private IEnumerator SphereIndicator(Vector3 pos) {
+//
+//
+//		pistol = GameObject.Find ("gun1");
+//		rifle = GameObject.Find ("gun2");
+//
+//		if (pistol.activeInHierarchy == true) {
+//			GameObject sphere = GameObject.CreatePrimitive (PrimitiveType.Sphere);
+//			sphere.transform.position = pos;
+//
+//			yield return new WaitForSeconds (1);
+//
+//			Destroy (sphere);
+//		} 
+//		else if (rifle.activeInHierarchy == true) {
+//			GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+//			cube.transform.position = pos;
+//
+//			yield return new WaitForSeconds(1);
+//
+//			Destroy(cube);
+//		}
+//
+//
+//	}
 
 	private IEnumerator CubeIndicator(Vector3 pos) {
 
@@ -105,6 +125,17 @@ public class RayShooter : MonoBehaviour {
 		yield return new WaitForSeconds(1);
 
 		Destroy(bulletPrefab);
+
+	}
+
+	private IEnumerator LaserIndicator(Vector3 pos) {
+		laserPrefab = GameObject.FindGameObjectWithTag ("laser");
+		laserPrefab = Instantiate(laserPrefab) as GameObject;
+		// sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+		laserPrefab.transform.position = pos;
+		yield return new WaitForSeconds(1);
+
+		Destroy(laserPrefab);
 
 	}
 }
