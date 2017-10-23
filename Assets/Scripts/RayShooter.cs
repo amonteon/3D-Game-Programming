@@ -17,13 +17,6 @@ public class RayShooter : MonoBehaviour {
 //		Cursor.visible = false;
 	}
 
-//	void OnGUI() {
-//		int size = 40;
-//		float posX = _camera.pixelWidth/2 - size/4;
-//		float posY = _camera.pixelHeight/2 - size/2;
-//		GUI.Label(new Rect(posX, posY, size, size), "");
-//	}
-
 	void OnGUI() {
 		int size = 12;
 		float posX = _camera.pixelWidth/2 - size/4;
@@ -66,28 +59,6 @@ public class RayShooter : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.R))
 			Application.LoadLevel(0);
 	}
-
-//	void Update() {
-//		if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) {
-//			Vector3 point = new Vector3(_camera.pixelWidth/2, _camera.pixelHeight/2, 0);
-//			Ray ray = _camera.ScreenPointToRay(point);
-//			RaycastHit hit;
-//			if (Physics.Raycast(ray, out hit)) {
-//				GameObject hitObject = hit.transform.gameObject;
-//				ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
-//				if (target != null) {
-//					target.ReactToHit();
-//				} else {
-//					StartCoroutine(SphereIndicator(hit.point));
-//				}
-//			}
-//		}
-//
-//		if(Input.GetKeyDown(KeyCode.R))
-//			Application.LoadLevel(0);
-//			
-//	}
-//
 	private IEnumerator SphereIndicator(Vector3 pos) {
 
 
