@@ -66,7 +66,7 @@ public class PlayerCharacter : MonoBehaviour {
 
 	public void OnCollisionEnter(Collision collision)
 	{
-		if(collision.transform.tag == "Enemy2")
+		if(collision.transform.tag == "Chasing Enemy")
 		{
 				AddjustCurrentHealth(-1);
 		}

@@ -9790,15 +9790,17 @@ MonoBehaviour:
       type="RAIN.Memory.BasicMemory" reference="2"><_memoryItems></_memoryItems></_workingMemory><_mind
       type="RAIN.Minds.BasicMind" reference="3"><_behaviorTree object="0"></_behaviorTree><_behaviorTreeBindings></_behaviorTreeBindings></_mind><_motor
       type="RAIN.Motion.BasicMotor" reference="4"><_speed>1</_speed><_rotationSpeed>360</_rotationSpeed><_closeEnoughDistance>0.1</_closeEnoughDistance><_closeEnoughAngle>0.1</_closeEnoughAngle><_faceBeforeMoveAngle>360</_faceBeforeMoveAngle><_maxHeightOffset>1</_maxHeightOffset><_allow3DMovement>False</_allow3DMovement><_allow3DRotation>False</_allow3DRotation><_allowOffGraphMovement>True</_allowOffGraphMovement><_useRootMotion>False</_useRootMotion><_overrideRootRotation>True</_overrideRootRotation><_mecanimParameters></_mecanimParameters></_motor><_animator
-      type="RAIN.Animation.LegacyAnimator" reference="5"><_animationStates><element0
-      reference="6"><stateName>Attack</stateName><animationClip object="1"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Default</wrapMode><mixingTransforms></mixingTransforms></element0><element1
-      reference="7"><stateName>Walk</stateName><animationClip object="2"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Default</wrapMode><mixingTransforms></mixingTransforms></element1></_animationStates></_animator><_navigator
+      type="RAIN.Animation.BasicAnimator" reference="5"><_showVisual>True</_showVisual><_leftEye
+      reference="6"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_leftEye><_rightEye
+      reference="7"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_rightEye><_head
+      reference="8"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_head><_neck
+      reference="9"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_neck><_lookTime>1</_lookTime><_minimumTargetChange>0.1</_minimumTargetChange><_resetEachFrame>False</_resetEachFrame></_animator><_navigator
       type="RAIN.Navigation.BasicNavigator" reference="10"><_drawPaths>False</_drawPaths><_pathColor>0,1,0,1</_pathColor><_outlineColorOffset>-0.5</_outlineColorOffset><_maxPathfindingSteps>100</_maxPathfindingSteps><_maxPathLength>0</_maxPathLength><_padding>0</_padding><_graphTags></_graphTags></_navigator><_senses
       type="RAIN.Perception.BasicSenses" reference="11"><_sensors><element0 type="RAIN.Perception.Sensors.VisualSensor"
       reference="12"><_showVisual>True</_showVisual><_sensorName>Enemy2</_sensorName><_isActive>True</_isActive><_sensorColor>0,0,0.6,1</_sensorColor><_mountPoint
       sceneobject="026f14e5-6cc9-4eb8-bd1f-999a6110e9d8" component="0"></_mountPoint><_positionOffset>0,0,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>7</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>90</_horizontalAngle><_verticalAngle>90</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
     _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
-      type="System.Int32">3</value></element0></meta>
+      type="System.Int32">0</value></element0></meta>
     _serializedObjects:
     - {fileID: 4900000, guid: fbd27b3b933524782b0227f2b7ff2be7, type: 3}
     - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
@@ -23922,6 +23924,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114010292339026506, guid: 545c24deb703e4fe9afa13c93210b76d,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 545c24deb703e4fe9afa13c93210b76d, type: 2}
   m_IsPrefabParent: 0
@@ -24887,13 +24894,15 @@ GameObject:
   - component: {fileID: 1275316181}
   - component: {fileID: 1275316184}
   - component: {fileID: 1275316183}
+  - component: {fileID: 1275316186}
+  - component: {fileID: 1275316185}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1275316181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24944,13 +24953,39 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1275316180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1649e9ed851514a34af0c78a8e6fbcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1672846615780884, guid: 545c24deb703e4fe9afa13c93210b76d,
     type: 2}
+  spawnList: []
+--- !u!114 &1275316185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275316180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1649e9ed851514a34af0c78a8e6fbcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  spawnList: []
+--- !u!114 &1275316186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275316180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1649e9ed851514a34af0c78a8e6fbcb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 100000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
   spawnList: []
 --- !u!1 &1277540153
 GameObject:
@@ -39596,7 +39631,7 @@ MonoBehaviour:
       reference="9"><_showVisual>True</_showVisual><_sensorName>enemy1</_sensorName><_isActive>True</_isActive><_sensorColor>0.6,0,0,1</_sensorColor><_mountPoint
       sceneobject="bb27cbcb-85f0-4da2-a43e-eaa55139803b" component="0"></_mountPoint><_positionOffset>0,0,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>15</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>35</_horizontalAngle><_verticalAngle>60</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
     _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
-      type="System.Int32">0</value></element0></meta>
+      type="System.Int32">1</value></element0></meta>
     _serializedObjects:
     - {fileID: 4900000, guid: c8c01fd002e7c4da094813930c5962fc, type: 3}
     - {fileID: 7400000, guid: cc633396b5f95da4b916357a5508ee4f, type: 3}
