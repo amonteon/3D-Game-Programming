@@ -79,6 +79,9 @@
      <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\WanderingAI.cs" />
+     <Compile Include="Assets\SkyBoxes\MouseLook.cs" />
+     <Compile Include="Assets\SkyBoxes\RecordScreens.cs" />
+     <Compile Include="Assets\SkyBoxes\SkyBoxPicker.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
      <Compile Include="Assets\torch\scripts\Torchelight.cs" />
