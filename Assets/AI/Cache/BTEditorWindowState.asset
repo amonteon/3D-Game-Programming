@@ -20,9 +20,9 @@ MonoBehaviour:
   HolderNodes:
   - AssetPath: .currentai
     BehaviorTreeName: (No AI Selected)
-    BehaviorTreeID: 2
-    LastUpdate: 636443113040913420
-    LastModified: 636443112240000000
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
     Errored: 0
   - AssetPath: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -32,9 +32,9 @@ MonoBehaviour:
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Monsters.txt
     BehaviorTreeName: Monsters
-    BehaviorTreeID: 2
-    LastUpdate: 636443122287376550
-    LastModified: 636443122280000000
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
     Errored: 0
   TreeState:
     _branchRepo:
@@ -46,6 +46,7 @@ MonoBehaviour:
       _children: 
       _variables: 
       _focused: 0
+<<<<<<< HEAD
     - _fields:
       - _field: name
         _currentValue: Patrol and animate
@@ -519,4 +520,6 @@ MonoBehaviour:
       _variables: 
       _focused: 1
 >>>>>>> 9c571e6023daeaf48834b1d1d4df2420a0ef0b8c
+=======
+>>>>>>> 2deb566222178829fcb4fa6a77d4e852a57353ef
     _freeList: 
