@@ -26,4 +26,4 @@ MonoBehaviour:
   _displayVersionWarning: 1
   _showDeprecatedRAINClasses: 0
   _defaultSerialization: 1
-  _projectSkin: {fileID: 0}
+  _projectSkin: {fileID: 11400000, guid: 8d9121566b3424bc5a5c68e95a5e55b6, type: 2}
