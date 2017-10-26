@@ -2,7 +2,11 @@
 using System.Collections;
 
 public class ReactiveTarget : MonoBehaviour {
-
+	int counter = 0;
+	public float healthBarLengh;
+	void Start() {
+		healthBarLengh =  Screen.width / 2;
+	}
 	public void ReactToHit() {
 		WanderingAI behavior = GetComponent<WanderingAI>();
 		if (behavior != null) {
@@ -21,5 +25,9 @@ public class ReactiveTarget : MonoBehaviour {
 		
 		Destroy(this.gameObject);
 		behavior.enemyCount--;
+		counter = counter + 1;
+		GUI.Box (new Rect (10, 40, healthBarLengh, 20), "Count:" + counter);
 	}
+
+
 }
