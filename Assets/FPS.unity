@@ -9790,22 +9790,39 @@ MonoBehaviour:
       type="RAIN.Memory.BasicMemory" reference="2"><_memoryItems></_memoryItems></_workingMemory><_mind
       type="RAIN.Minds.BasicMind" reference="3"><_behaviorTree object="0"></_behaviorTree><_behaviorTreeBindings></_behaviorTreeBindings></_mind><_motor
       type="RAIN.Motion.BasicMotor" reference="4"><_speed>1</_speed><_rotationSpeed>360</_rotationSpeed><_closeEnoughDistance>0.1</_closeEnoughDistance><_closeEnoughAngle>0.1</_closeEnoughAngle><_faceBeforeMoveAngle>360</_faceBeforeMoveAngle><_maxHeightOffset>1</_maxHeightOffset><_allow3DMovement>False</_allow3DMovement><_allow3DRotation>False</_allow3DRotation><_allowOffGraphMovement>True</_allowOffGraphMovement><_useRootMotion>False</_useRootMotion><_overrideRootRotation>True</_overrideRootRotation><_mecanimParameters></_mecanimParameters></_motor><_animator
-      type="RAIN.Animation.BasicAnimator" reference="5"><_showVisual>True</_showVisual><_leftEye
-      reference="6"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_leftEye><_rightEye
-      reference="7"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_rightEye><_head
-      reference="8"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_head><_neck
-      reference="9"><_jointColor>0,1,0,1</_jointColor><_joint sceneobject=""></_joint><_jointOffset>0,0,0</_jointOffset><_jointOrientation>0,0,0</_jointOrientation><_maxLeftRight>60</_maxLeftRight><_maxUpDown>45</_maxUpDown><_weight>1</_weight></_neck><_lookTime>1</_lookTime><_minimumTargetChange>0.1</_minimumTargetChange><_resetEachFrame>False</_resetEachFrame></_animator><_navigator
+      type="RAIN.Animation.LegacyAnimator" reference="5"><_animationStates><element0
+      reference="6"><stateName>Walk</stateName><animationClip object="3"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Loop</wrapMode><mixingTransforms></mixingTransforms></element0><element1
+      reference="7"><stateName>Stand</stateName><animationClip object="4"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Default</wrapMode><mixingTransforms></mixingTransforms></element1></_animationStates></_animator><_navigator
       type="RAIN.Navigation.BasicNavigator" reference="10"><_drawPaths>False</_drawPaths><_pathColor>0,1,0,1</_pathColor><_outlineColorOffset>-0.5</_outlineColorOffset><_maxPathfindingSteps>100</_maxPathfindingSteps><_maxPathLength>0</_maxPathLength><_padding>0</_padding><_graphTags></_graphTags></_navigator><_senses
       type="RAIN.Perception.BasicSenses" reference="11"><_sensors><element0 type="RAIN.Perception.Sensors.VisualSensor"
       reference="12"><_showVisual>True</_showVisual><_sensorName>Enemy2</_sensorName><_isActive>True</_isActive><_sensorColor>0,0,0.6,1</_sensorColor><_mountPoint
       sceneobject="026f14e5-6cc9-4eb8-bd1f-999a6110e9d8" component="0"></_mountPoint><_positionOffset>0,0,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>7</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>90</_horizontalAngle><_verticalAngle>90</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
     _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
-      type="System.Int32">0</value></element0></meta>
+      type="System.Int32">3</value></element0></meta>
     _serializedObjects:
     - {fileID: 4900000, guid: fbd27b3b933524782b0227f2b7ff2be7, type: 3}
     - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
     - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+    - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+    - {fileID: 7400000, guid: 6f61bc53c41ba664fa527d3386ecfd1e, type: 3}
     _serializedCustomData: []
+--- !u!111 &443093930
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443093926}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6f61bc53c41ba664fa527d3386ecfd1e, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+  - {fileID: 7400000, guid: 6f61bc53c41ba664fa527d3386ecfd1e, type: 3}
+  - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
 --- !u!1 &444609224
 GameObject:
   m_ObjectHideFlags: 0
@@ -14139,6 +14156,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679356711}
   m_Mesh: {fileID: 4300002, guid: 6db883a2e2492459fb7212b044e61db6, type: 3}
+--- !u!1 &681937873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 681937875}
+  - component: {fileID: 681937874}
+  m_Layer: 0
+  m_Name: skeletopTopRoute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &681937874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681937873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2099906888, guid: 9fa2ecd1ff2ad394281dd3bf72c5b76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _preferredSerialization: 2
+    _serializedData: 
+    _serializedMetaData: <meta></meta>
+    _serializedGameObjects: []
+    _serializedCustomData: []
+  _serializer:
+    _preferredSerialization: 1
+    _includeCustomData: 0
+    _serializedDocument: <component version="1.8" type="RAIN.Navigation.Waypoints.WaypointRig"
+      reference="0" includecustomdata="False"><_visualMode>AlwaysOn</_visualMode><_waypointSet
+      reference="1"><_mountPoint sceneobject="0c06d401-51da-4998-b8fe-08f80a14c0d0"
+      component="0"></_mountPoint><_setName>Waypoint Route</_setName><_setType>Route</_setType><_networkColor>0.6,0,0,1</_networkColor><_outlineColorOffset>-0.5</_outlineColorOffset><_selectionColorOffset>0.4</_selectionColorOffset><_showOctTree>False</_showOctTree><_waypoints><element0
+      reference="2"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-5.749649,6.236899,-39.70421</_position><_range>0.5</_range></element0><element1
+      reference="3"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-4.191483,6.057032,-44.94713</_position><_range>0.5</_range></element1><element2
+      reference="4"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-4.945099,6.057031,-52.3835</_position><_range>0.5</_range></element2><element3
+      reference="5"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-4.310364,6.05703,-59.73235</_position><_range>0.5</_range></element3><element4
+      reference="6"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-3.672226,6.057029,-64.81725</_position><_range>0.5</_range></element4><element5
+      reference="7"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>4.309845,6.05703,-64.68211</_position><_range>0.5</_range></element5><element6
+      reference="8"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>5.816666,6.057031,-53.34366</_position><_range>0.5</_range></element6><element7
+      reference="9"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>7.522705,6.057032,-46.6936</_position><_range>0.5</_range></element7><element8
+      reference="10"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>15.32936,6.057032,-44.3756</_position><_range>0.5</_range></element8><element9
+      reference="11"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>14.90385,6.057033,-37.95335</_position><_range>0.5</_range></element9><element10
+      reference="12"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>6.235092,6.745079,-32.08475</_position><_range>0.5</_range></element10><element11
+      reference="13"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>6.721252,6.057034,-26.08458</_position><_range>0.5</_range></element11><element12
+      reference="14"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>16.14531,6.057036,-17.0284</_position><_range>0.5</_range></element12><element13
+      reference="15"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>23.49069,6.057036,-16.05605</_position><_range>0.5</_range></element13><element14
+      reference="16"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>24.53125,6.057036,-11.89426</_position><_range>0.5</_range></element14><element15
+      reference="17"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>3.829071,6.342669,-13.20845</_position><_range>0.5</_range></element15><element16
+      reference="18"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-3.773758,6.057035,-14.46164</_position><_range>0.5</_range></element16><element17
+      reference="19"><_waypointSet reference="1"></_waypointSet><_waypointName></_waypointName><_position>-3.88414,6.041743,-26.60852</_position><_range>0.5</_range></element17></_waypoints><_connections></_connections></_waypointSet></component>
+    _serializedMetaDocument: <meta></meta>
+    _serializedObjects: []
+    _serializedCustomData: []
+--- !u!4 &681937875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681937873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 230.63, y: 1.37, z: 205.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683307538
 GameObject:
   m_ObjectHideFlags: 0
@@ -16122,6 +16213,13 @@ MonoBehaviour:
     _sceneObject: {fileID: 1456724506}
     _sceneComponents:
     - {fileID: 1456724508}
+  - _guid: 0c06d401-51da-4998-b8fe-08f80a14c0d0
+    _sceneObject: {fileID: 681937873}
+    _sceneComponents:
+    - {fileID: 681937875}
+  - _guid: 52147fb1-6ecc-4bcf-9542-4c052fbb8f74
+    _sceneObject: {fileID: 1119110990}
+    _sceneComponents: []
 --- !u!4 &881830371
 Transform:
   m_ObjectHideFlags: 1
@@ -22589,6 +22687,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1119110990 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  m_PrefabInternal: {fileID: 1557073424}
+--- !u!111 &1119110991
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119110990}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 6f61bc53c41ba664fa527d3386ecfd1e, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: a5ea117a2b123564a83a2dbd1c9ea4cf, type: 3}
+  - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+  - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
+  - {fileID: 7400000, guid: a749f4485b342b7469956010abf2ab25, type: 3}
+  - {fileID: 7400000, guid: 6f61bc53c41ba664fa527d3386ecfd1e, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!114 &1119110992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1119110990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 157053555, guid: 9fa2ecd1ff2ad394281dd3bf72c5b76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _preferredSerialization: 2
+    _serializedData: 
+    _serializedMetaData: <meta></meta>
+    _serializedGameObjects: []
+    _serializedCustomData: []
+  _serializer:
+    _preferredSerialization: 1
+    _includeCustomData: 0
+    _serializedDocument: <component version="1.8" type="RAIN.Core.AIRig" reference="0"
+      includecustomdata="False"><_visualMode>OnWhenSelected</_visualMode><_useUnityMessages>True</_useUnityMessages><_useFixedUpdate>False</_useFixedUpdate><_ai
+      reference="1"><_isActive>True</_isActive><_body sceneobject="52147fb1-6ecc-4bcf-9542-4c052fbb8f74"></_body><_workingMemory
+      type="RAIN.Memory.BasicMemory" reference="2"><_memoryItems></_memoryItems></_workingMemory><_mind
+      type="RAIN.Minds.BasicMind" reference="3"><_behaviorTree object="0"></_behaviorTree><_behaviorTreeBindings></_behaviorTreeBindings></_mind><_motor
+      type="RAIN.Motion.BasicMotor" reference="4"><_speed>1</_speed><_rotationSpeed>360</_rotationSpeed><_closeEnoughDistance>0.1</_closeEnoughDistance><_closeEnoughAngle>0.1</_closeEnoughAngle><_faceBeforeMoveAngle>360</_faceBeforeMoveAngle><_maxHeightOffset>1</_maxHeightOffset><_allow3DMovement>False</_allow3DMovement><_allow3DRotation>False</_allow3DRotation><_allowOffGraphMovement>True</_allowOffGraphMovement><_useRootMotion>False</_useRootMotion><_overrideRootRotation>True</_overrideRootRotation><_mecanimParameters></_mecanimParameters></_motor><_animator
+      type="RAIN.Animation.LegacyAnimator" reference="5"><_animationStates><element0
+      reference="6"><stateName>Idle</stateName><animationClip object="3"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Loop</wrapMode><mixingTransforms></mixingTransforms></element0><element1
+      reference="7"><stateName>Walk</stateName><animationClip object="4"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Loop</wrapMode><mixingTransforms></mixingTransforms></element1><element2
+      reference="8"><stateName>Attack</stateName><animationClip object="5"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Loop</wrapMode><mixingTransforms></mixingTransforms></element2><element3
+      reference="9"><stateName>Death</stateName><animationClip object="6"></animationClip><layer>0</layer><weight>1</weight><speed>1</speed><fadeInTime>0</fadeInTime><fadeOutTime>0</fadeOutTime><wrapMode>Loop</wrapMode><mixingTransforms></mixingTransforms></element3></_animationStates></_animator><_navigator
+      type="RAIN.Navigation.BasicNavigator" reference="10"><_drawPaths>False</_drawPaths><_pathColor>0,1,0,1</_pathColor><_outlineColorOffset>-0.5</_outlineColorOffset><_maxPathfindingSteps>100</_maxPathfindingSteps><_maxPathLength>0</_maxPathLength><_padding>0</_padding><_graphTags></_graphTags></_navigator><_senses
+      type="RAIN.Perception.BasicSenses" reference="11"><_sensors><element0 type="RAIN.Perception.Sensors.VisualSensor"
+      reference="12"><_showVisual>True</_showVisual><_sensorName>Visual Sensor</_sensorName><_isActive>True</_isActive><_sensorColor>0.6,0.5529412,0.009411765,1</_sensorColor><_mountPoint
+      sceneobject="026f14e5-6cc9-4eb8-bd1f-999a6110e9d8" component="0"></_mountPoint><_positionOffset>0,0.3903319,0</_positionOffset><_angleOffset>0,0,0</_angleOffset><_filters></_filters><_range>7</_range><_canDetectSelf>False</_canDetectSelf><_horizontalAngle>90</_horizontalAngle><_verticalAngle>90</_verticalAngle><_lineOfSight>False</_lineOfSight><_lineOfSightMask>-5</_lineOfSightMask></element0></_sensors></_senses><_customElements></_customElements></_ai></component>
+    _serializedMetaDocument: <meta><element0><key>/component/_ai+_selected</key><value
+      type="System.Int32">0</value></element0></meta>
+    _serializedObjects:
+    - {fileID: 4900000, guid: 201da510abc6142a090bcdddad93e6e2, type: 3}
+    - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
+    - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+    - {fileID: 7400000, guid: a5ea117a2b123564a83a2dbd1c9ea4cf, type: 3}
+    - {fileID: 7400000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
+    - {fileID: 7400000, guid: dfc15c633f0d98141920018f79a042a6, type: 3}
+    - {fileID: 7400000, guid: a749f4485b342b7469956010abf2ab25, type: 3}
+    _serializedCustomData: []
 --- !u!1 &1133793146
 GameObject:
   m_ObjectHideFlags: 0
@@ -23995,6 +24162,10 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: cbf7efaa6ec174ab9a8786b290e7bedc, type: 2}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
   m_IsPrefabParent: 0
@@ -32715,6 +32886,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1555423244}
   m_Mesh: {fileID: 4300000, guid: 6db883a2e2492459fb7212b044e61db6, type: 3}
+--- !u!1001 &1557073424
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 226.43936
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 175.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 17.676489
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 17.6765
+      objectReference: {fileID: 0}
+    - target: {fileID: 400078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 17.6765
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cbf7efaa6ec174ab9a8786b290e7bedc, type: 2}
+    - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Name
+      value: Skeleton@Skin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1560765992
 GameObject:
   m_ObjectHideFlags: 0
@@ -36438,6 +36683,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1790893859}
   m_Mesh: {fileID: 4300002, guid: 6db883a2e2492459fb7212b044e61db6, type: 3}
+--- !u!1 &1795612669 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100076, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+  m_PrefabInternal: {fileID: 1557073424}
+--- !u!65 &1795612671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795612669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13388358, y: 0.038808104, z: 0.1568227}
+  m_Center: {x: -0.00000000431882, y: -0.005416743, z: 0.07841128}
 --- !u!1 &1800534224
 GameObject:
   m_ObjectHideFlags: 0

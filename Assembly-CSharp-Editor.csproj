@@ -54,6 +54,7 @@
      <Compile Include="Assets\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
      <Compile Include="Assets\RAIN\Editor\ScriptTemplates\ActionTemplate_CS.cs" />
      <Compile Include="Assets\RAIN\Editor\ScriptTemplates\DecisionTemplate_CS.cs" />
+     <None Include="Assets\AI\BehaviorTrees\Skeleton-top.txt" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\AI\BehaviorTrees\Monsters.txt" />
