@@ -45,4 +45,11 @@ public class Chasing : MonoBehaviour {
 		} 
 	}
 
+	void OnTriggerEnter(Collider other) {
+		PlayerCharacter player = other.GetComponent<PlayerCharacter>();
+		//if (player != null) {
+		player.Hurt(damage);
+		//}
+	}
+
 }

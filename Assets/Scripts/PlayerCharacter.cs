@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
+using System.Text;
 
 public class PlayerCharacter : MonoBehaviour {
 	private int _health;
@@ -11,6 +13,7 @@ public class PlayerCharacter : MonoBehaviour {
 	public Vector3 target;
 	public Transform player;
 	public static bool IsInputEnabled = true;
+	public Text text;
 
 	void Start() {
 		_health = 1;
@@ -66,10 +69,17 @@ public class PlayerCharacter : MonoBehaviour {
 
 	public void OnCollisionEnter(Collision collision)
 	{
+
 		if(collision.transform.tag == "Chasing Enemy")
 		{
 				AddjustCurrentHealth(-1);
 		}
+		if(collision.transform.tag == "Enemy")
+		{
+			AddjustCurrentHealth(-1);
+			Hurt (1);
+		}
+
 	}
 
 	void OnTriggerEnter(Collider hit) {
@@ -86,6 +96,14 @@ public class PlayerCharacter : MonoBehaviour {
 			objPosition.y = hits.point.y + 10.9f;
 			transform.position = objPosition;
 		}
+		if (hit.gameObject.name == "Enemy") {
+			AddjustCurrentHealth (-1);
+			Hurt (1);
+		}
+		if(hit.tag == "Sword")
+			text.text = "Trigger works";
+
+		
 	}
 
 	void React2 () {
