@@ -1,13 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AI/BehaviorTrees/Monsters.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerCharacter.cs">
     <Files>
+      <File FileName="Assets/Scripts/PlayerCharacter.cs" Line="104" Column="32" />
       <File FileName="Assets/Scripts/Enemy.cs" Line="33" Column="25" />
       <File FileName="Assets/Scripts/Teleport.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerCharacter.cs" Line="66" Column="2" />
       <File FileName="Assets/Scripts/RayShooter.cs" Line="121" Column="2" />
-      <File FileName="Assets/AI/BehaviorTrees/Monsters.txt" Line="2" Column="1" />
-      <File FileName="Assets/Scripts/Chasing.cs" Line="41" Column="56" />
+      <File FileName="Assets/AI/BehaviorTrees/Monsters.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Chasing.cs" Line="48" Column="1" />
+      <File FileName="Assets/Scripts/Fireball.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/Damage.cs" Line="21" Column="2" />
+      <File FileName="Assets/Scripts/DamageReceived.cs" Line="10" Column="38" />
+      <File FileName="Assets/Scripts/ReactiveTarget.cs" Line="29" Column="71" />
+      <File FileName="Assets/Scripts/WIn.cs" Line="4" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

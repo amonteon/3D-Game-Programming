@@ -16,8 +16,8 @@ MonoBehaviour:
   - AssetPath: .currentai
     BehaviorTreeName: (No AI Selected)
     BehaviorTreeID: 1
-    LastUpdate: 636445715490358430
-    LastModified: 636445715420000000
+    LastUpdate: 636445829748414960
+    LastModified: 636445829570000000
     Errored: 0
   - AssetPath: .createxml
     BehaviorTreeName: Create New Behavior Tree
@@ -27,9 +27,9 @@ MonoBehaviour:
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Enemy2.txt
     BehaviorTreeName: Enemy2
-    BehaviorTreeID: 1
-    LastUpdate: 636445715490358430
-    LastModified: 636445715420000000
+    BehaviorTreeID: 0
+    LastUpdate: 0
+    LastModified: 0
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Monsters.txt
     BehaviorTreeName: Monsters
@@ -39,9 +39,9 @@ MonoBehaviour:
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Skeleton-top.txt
     BehaviorTreeName: Skeleton-top
-    BehaviorTreeID: 0
-    LastUpdate: 0
-    LastModified: 0
+    BehaviorTreeID: 1
+    LastUpdate: 636445829748414960
+    LastModified: 636445829570000000
     Errored: 0
   - AssetPath: Assets/AI/BehaviorTrees/Test.txt
     BehaviorTreeName: Test
@@ -61,7 +61,7 @@ MonoBehaviour:
       _focused: 0
     - _fields:
       - _field: name
-        _currentValue: Enemy2
+        _currentValue: Skeleton-top
         _recordChange: 1
         _changed: 0
       - _field: open
@@ -95,7 +95,7 @@ MonoBehaviour:
       _type: 4
       _stateIndex: 1
       _parent: 0
-      _lastUpdate: 636445715490358430
+      _lastUpdate: 636445829748414960
       _children: 02000000
       _variables: 
       _focused: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
       _type: 16
       _stateIndex: 2
       _parent: 1
-      _lastUpdate: 636445715490359240
+      _lastUpdate: 636445829748415760
       _children: 030000000400000005000000
       _variables: 
       _focused: 0
@@ -319,7 +319,7 @@ MonoBehaviour:
       _type: 19
       _stateIndex: 5
       _parent: 2
-      _lastUpdate: 636445715490360570
+      _lastUpdate: 636445829748416960
       _children: 060000000b000000
       _variables: 
       _focused: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
       _type: 5
       _stateIndex: 6
       _parent: 5
-      _lastUpdate: 636445715490359680
+      _lastUpdate: 636445829748416110
       _children: 07000000
       _variables: 
       _focused: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: succeed
-        _currentValue: all
+        _currentValue: any
         _recordChange: 1
         _changed: 0
       - _field: tiebreaker
@@ -415,7 +415,7 @@ MonoBehaviour:
       _type: 16
       _stateIndex: 7
       _parent: 6
-      _lastUpdate: 636445715490360410
+      _lastUpdate: 636445829748416820
       _children: 080000000a000000
       _variables: 
       _focused: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
         _recordChange: 1
         _changed: 0
       - _field: waypointsetvariable
-        _currentValue: '"SkelBottomRoute"'
+        _currentValue: '"skeletopTopRoute"'
         _recordChange: 1
         _changed: 0
       - _field: pathtargetvariable
@@ -479,7 +479,7 @@ MonoBehaviour:
       _type: 23
       _stateIndex: 8
       _parent: 7
-      _lastUpdate: 636445715490360280
+      _lastUpdate: 636445829748416690
       _children: 09000000
       _variables: 
       _focused: 0
@@ -623,7 +623,7 @@ MonoBehaviour:
       _type: 5
       _stateIndex: 11
       _parent: 5
-      _lastUpdate: 636445715490360700
+      _lastUpdate: 636445829748417100
       _children: 0c000000
       _variables: 
       _focused: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
       _type: 19
       _stateIndex: 12
       _parent: 11
-      _lastUpdate: 636445715490361670
+      _lastUpdate: 636445829748418010
       _children: 0d00000011000000
       _variables: 
       _focused: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
       _type: 5
       _stateIndex: 13
       _parent: 12
-      _lastUpdate: 636445715490361100
+      _lastUpdate: 636445829748417420
       _children: 0e000000
       _variables: 
       _focused: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
       _type: 16
       _stateIndex: 14
       _parent: 13
-      _lastUpdate: 636445715490361500
+      _lastUpdate: 636445829748417880
       _children: 0f00000010000000
       _variables: 
       _focused: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
       _type: 5
       _stateIndex: 17
       _parent: 12
-      _lastUpdate: 636445715490361790
+      _lastUpdate: 636445829748418120
       _children: 12000000
       _variables: 
       _focused: 0
